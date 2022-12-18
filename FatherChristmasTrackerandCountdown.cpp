@@ -1,5 +1,5 @@
-#include<iostream>
-#include<ctime>
+#include <iostream>
+#include <ctime>
 #include <string>
 #include <stdio.h>
 
