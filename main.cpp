@@ -201,7 +201,7 @@ cout << "\033[31m" <<R"(        ____
     `-.,____,.-'          (               _/)"<< endl;
 
 
-cout << narrator << "Please consider voting for our endeavour" << endl;
+cout << narrator << "Please consider voting for our project" << endl;
 clearcolour();
 
 
