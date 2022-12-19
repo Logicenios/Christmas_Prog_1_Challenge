@@ -176,7 +176,6 @@ do {
         case 0:
             cout << narrator
                  << "You have been very good. Many gifts will be waiting for you under the tree!";
-	default:
             
         }
         clearcolour();
