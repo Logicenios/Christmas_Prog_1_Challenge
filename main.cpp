@@ -173,9 +173,10 @@ do {
                  << "You have been very naughty.";
            
 
-        default:
+        case 0:
             cout << narrator
-                 << "You have been very good. Many gifts will be waiting you under the tree!";
+                 << "You have been very good. Many gifts will be waiting for you under the tree!";
+	default:
             
         }
         clearcolour();
