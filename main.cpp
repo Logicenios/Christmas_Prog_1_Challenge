@@ -168,16 +168,13 @@ do {
         uniform_int_distribution<> distr(0, 1);
         switch (distr(gen))
         {
-        case 1:
-            cout << narrator
-                 << "You have been very naughty." << endl;
-           
-
         case 0:
             cout << narrator
                  << "You have been very good. Many gifts will be waiting for you under the tree!" << endl;
-        default: 
-            
+        
+        case 1:
+            cout << narrator
+                 << "You have been very naughty." << endl;   
         }
         clearcolour();
     }
