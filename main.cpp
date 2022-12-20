@@ -234,7 +234,7 @@ void loading() {
 void fclocator(){
     int ans;
 
-    const char *whereisfchristmas[25] = { "Greece & Eastern Europe",
+    const char *whereisfchristmas[26] = { "No data",
     "France & Central Europe",
     "Greenland, Iceland & British Overseas Territories",
     "Brazil",
@@ -257,6 +257,7 @@ void fclocator(){
     "Central Africa",
     "Northern Africa",
     "Italy, Spain & Southern Europe",
+    "Greece & Eastern Europe"
     };
 
 
@@ -277,7 +278,7 @@ void fclocator(){
 
 
             hourdig1 = dt[11];
-            hourdig2 = dt[12];
+            hourdig2 = dt[12]+2;
 
             hournum = hourdig1 + hourdig2;
 
