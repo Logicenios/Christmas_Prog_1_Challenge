@@ -166,16 +166,7 @@ do {
         random_device rd;  // Get a number from a random part of computer's memory
         mt19937 gen(rd()); // Use the number in a A Mersenne Twister pseudo-random generator of 32-bit numbers with a state size of 19937 bits
         uniform_int_distribution<> distr(0, 1);
-        /*switch (distr(gen))
-        {
-        case 0:
-            cout << narrator
-                 << "You have been very good. Many gifts will be waiting for you under the tree!" << endl;
-        
-        case 1:
-            cout << narrator
-                 << "You have been very naughty." << endl;   
-        } */
+
         if (distr(gen) == 0) {
           cout << narrator
                  << "You have been very good. Many gifts will be waiting for you under the tree!" << endl;
