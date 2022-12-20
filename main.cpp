@@ -281,7 +281,7 @@ void fclocator(){
 
             hournum = hourdig1 + hourdig2;
 
-            timeh = stoi (hournum) + 2;
+            timeh = stoi (hournum);
 
             cout <<
 	        "Father Christmas should, by our best estimates, be in the area around: "
