@@ -21,7 +21,6 @@ Philip Antonopoulos
   
   <font color=red>RUN IN ONLINE GDB C++ VERSION C++ 20</font>
   
-  
-  Copyright 2022. All legal rights reserved
+ 
   
   
