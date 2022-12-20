@@ -267,7 +267,7 @@ void fclocator(){
 
     cout << "\033[31m" << "North Pole Geolocation" << endl;
     cout << "\033[36m"  <<
-    "Do you want to track father Christmas(Only works 24&25 Dec evening to morning)(1)" << endl <<"or check how many days are left until Christmas(Only works in December)(2)?: ";
+    "Do you want to track Father Christmas(Only works 24&25 Dec evening to morning)(1)" << endl <<"or check how many days are left until Christmas(Only works in December)(2)?: ";
     cin >> ans;
 
     if (ans == 1)
