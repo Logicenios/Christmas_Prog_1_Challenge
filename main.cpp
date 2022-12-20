@@ -131,23 +131,7 @@ clearcolour();
 loading();
 cout << setw(50) << "\033[31m"  << "FatherChristmas OS" << endl;
 cout << endl;
-//Time finder
-time_t now = time (0);
-            char *dt = ctime (&now);
-
-            string hourdig1, hourdig2, hourdig3, hourdig4, hourdig5 , hournum;
-            int timeh;
-
-
-
-            hourdig1 = dt[11];
-            hourdig2 = dt[12] + 2;
-            hourdig3 = dt[13];
-            hourdig4 = dt[14];
-            hourdig5 = dt[15];
-            hournum = hourdig1 + hourdig2 + hourdig3 + hourdig4 + hourdig5;
-
-cout << "\033[32m" << "Welcome " << username << " the time is " << hournum <<  endl;
+cout << "\033[32m" << "Welcome " << username << "." <<  endl;
 cout << endl;
 cout << setw(55) << "Choose a program to run:" << endl;
 cout << "1. Father Christmas Locator" << endl << "2. Naughty or Not" << endl << "0. Exit" << endl;
