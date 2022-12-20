@@ -141,7 +141,7 @@ time_t now = time (0);
 
 
             hourdig1 = dt[11];
-            hourdig2 = dt[12];
+            hourdig2 = dt[12] + 2;
             hourdig3 = dt[13];
             hourdig4 = dt[14];
             hourdig5 = dt[15];
@@ -277,7 +277,7 @@ void fclocator(){
 
 
             hourdig1 = dt[11];
-            hourdig2 = dt[12];
+            hourdig2 = dt[12] + 2;
 
             hournum = hourdig1 + hourdig2;
 
