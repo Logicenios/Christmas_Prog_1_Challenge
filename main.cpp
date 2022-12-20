@@ -277,7 +277,7 @@ void fclocator(){
 
 
             hourdig1 = dt[11];
-            hourdig2 = dt[12] + 2;
+            hourdig2 = dt[12];
 
             hournum = hourdig1 + hourdig2;
 
